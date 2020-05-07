@@ -1,10 +1,12 @@
 # Write your code here.
 def line(deli_line)
+  counter = 1
   if deli_line.length == 0
     puts "The line is currently empty."
   else
-    puts "The Line is currently: #{deli_line.index().join(" ")}"
+    puts "The Line is currently: #{deli_line.join(" ")}"
   end
+  counter++
 end
 
 def take_a_number(line_number, name)
