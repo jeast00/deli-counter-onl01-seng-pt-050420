@@ -3,9 +3,7 @@ def line(deli_line)
   if deli_line.length == 0
     puts "The line is currently empty."
   else
-    deli_line.each_with_index { |name, index|
-    puts "The Line is currently: #{index+1}. #{name.join(" ")}"
-  }
+    puts "The Line is currently: #{name.join(" ")}"
   end
 end
 
