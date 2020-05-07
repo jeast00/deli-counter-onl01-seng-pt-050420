@@ -4,9 +4,7 @@ def line(deli_line)
     puts "The line is currently empty."
   else
     deli_line.each_with_index { |name, index|
-      index_number = index
-      name_from_line = name.join(" ")
-    puts "The Line is currently: #{index_number+1}. #{name_from_line}"
+    puts "The Line is currently: #{index+1}. #{name.join(" ")}"
   }
   end
 end
