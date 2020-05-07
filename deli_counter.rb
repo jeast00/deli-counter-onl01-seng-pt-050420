@@ -9,3 +9,7 @@ def take_a_number(line_number, name)
   line_number.push(name)
 
 end
+
+def now_serving(line_number)
+  
+end
