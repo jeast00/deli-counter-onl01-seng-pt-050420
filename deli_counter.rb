@@ -4,7 +4,7 @@ def line(line_number)
     puts "The line is currently empty."
   end
     line_number.each { |line|
-        puts "The line is currently: #{line.length}. #{line.join}"
+        puts "The line is currently: #{line.length}. "
     }
 end
 
