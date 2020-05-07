@@ -1,11 +1,9 @@
 # Write your code here.
 def line(deli_line)
+  names_with_numbers = []
   if !deli_line.length
     puts "The line is currently empty."
   else
-
-    names_with_numbers = []
-
     deli_line.each_with_index {|name, index|
       names_with_numbers.push("#{index + 1}. #{name}")
     }
