@@ -1,13 +1,11 @@
 # Write your code here.
 def line(line_number)
-  name_with_line_number = []
   if line_number.length == 0
     puts "The line is currently empty."
   else
     line_number.each_with_index { |name, index|
-        puts "The line is currently: #{name_with_line_number.push(index+1)}."
+        puts "The line is currently: #{index.join}. #{name.join}"
     }
-    return name_with_line_number
   end
 end
 
