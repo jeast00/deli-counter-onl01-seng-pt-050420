@@ -1,6 +1,6 @@
 # Write your code here.
 def line(deli_line)
-  counter = 0;
+  counter = 0
   if deli_line.length == 0
     puts "The line is currently empty."
   else
