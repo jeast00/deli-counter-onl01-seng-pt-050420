@@ -1,5 +1,5 @@
 # Write your code here.
-def line(line_number)
+def line(deli_line)
   if line_number.length == 0
     puts "The line is currently empty."
   end
