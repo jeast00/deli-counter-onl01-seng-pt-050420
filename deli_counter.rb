@@ -4,7 +4,7 @@ def line(line_number)
     puts "The line is currently empty."
   else
     line_number.collect { |line, index|
-      puts "The line is currently: #{line.length}. #{line[index+1]}"
+      puts "The line is currently: #{line.join(index+1)}. "
   }
   end
 end
