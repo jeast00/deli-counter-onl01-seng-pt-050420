@@ -3,7 +3,9 @@ def line(line_number)
   if line_number.length == 0
     puts "The line is currently empty."
   end
-    puts "The line is currently #{line_number.length}. #{line_number.join}"
+    line_number.collect { |line|
+        puts "The line is currently: #{line.length}. #{line.join}"
+    }
 end
 
 def take_a_number(line_number, name)
