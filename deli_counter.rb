@@ -7,7 +7,7 @@ def line(deli_line)
   names_with_numbers = []
 
   deli_line.each_with_index {|name, index|
-    names_with_numbers.push("#{index}. #{name}")
+    names_with_numbers.push("#{index + 1}. #{name}")
   }
 
   puts "The line is currently: #{names_with_numbers.join(" ")}"
