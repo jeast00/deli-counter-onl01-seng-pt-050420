@@ -6,5 +6,5 @@ def line(line_number)
 end
 
 def take_a_number(line_number, name)
-
+  line_number.push(name)
 end
