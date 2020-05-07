@@ -2,10 +2,6 @@
 def line(line_number)
   if line_number.length == 0
     puts "The line is currently empty."
-  else
-    line_number.each_with_index { |name, index|
-        puts "The line is currently: #{index+1.join}. #{name.join}"
-    }
   end
 end
 
