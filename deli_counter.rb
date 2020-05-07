@@ -5,7 +5,7 @@ def line(line_number)
     puts "The line is currently empty."
   else
     line_number.each_with_index { |name, index|
-        name_with_line_number.push("The line is currently: #{index+1}. #{name}")
+        puts "The line is currently: #{name_with_line_number.push(index+1)}."
     }
     return name_with_line_number
   end
