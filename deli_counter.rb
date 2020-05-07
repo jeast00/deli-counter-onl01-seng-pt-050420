@@ -7,7 +7,5 @@ end
 
 def take_a_number(line_number, name)
   line_number.push(name)
-  if line_number.length > 1
-    line_number << name
-  end
+
 end
