@@ -2,9 +2,13 @@
 def line(deli_line)
   if deli_line.length == 0
     puts "The line is currently empty."
-  else
-    puts "The Line is currently: #{deli_line.join(" ")}"
   end
+
+  names_with_numbers = []
+
+  deli_line.each_with_index {|name, index|
+    names_with_numbers.push("#{index+1}. #{name}")
+  }
 end
 
 def take_a_number(line_number, name)
