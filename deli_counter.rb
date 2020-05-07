@@ -6,7 +6,7 @@ def line(deli_line)
   else
     puts "The Line is currently: #{deli_line.join(" ")}"
   end
-  counter++
+  counter+=1
 end
 
 def take_a_number(line_number, name)
