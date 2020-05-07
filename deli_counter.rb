@@ -11,5 +11,5 @@ def take_a_number(line_number, name)
 end
 
 def now_serving(line_number)
-  line_number.length === 0 ? puts "There is nobody waiting to be served!" : puts "Currently serving #{line_number.shift}."
+  line_number.length === 0 ? puts "There is nobody waiting to be served!" : puts "Currently serving #{line_number.shift()}."
 end
